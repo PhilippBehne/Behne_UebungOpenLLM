@@ -4,6 +4,6 @@ In meinem Projekt möchte ich die Übersetzungsfähigkeit von dem beiden beliebt
 Modelle:   google-t5/t5-small
            google-t5/t5-base
            DeepL
-Daten: Übersetzungspaare von tatoeba.org
+Daten: Übersetzungspaare von tatoeba.org. Deutsch zu Englisch.
 Evaluation der Übersetzung:  BLEU- und METEOR-Score
 
