@@ -8,3 +8,5 @@ Modelle: google-t5/t5-small;
            DeepL;
            
 Daten: Übersetzungspaare von tatoeba.org; Urteile des Europäischen Gerichtshofs von eur-lex.europa.eu; Deutsch-Englisch;
+
+Evaluation der Übersetzung:  BLEU- und METEOR-Score
