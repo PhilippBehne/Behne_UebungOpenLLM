@@ -15,7 +15,7 @@ pipe = pipeline("translation", model="google-t5/t5-base")
 #pipe = pipeline("translation", model="google-t5/t5-large")
 
 # File Paths
-input_file_path = "results/TranslationScore/Urteil_1_Score.txt"
+input_file_path = "Data/Urteile/Urteil_1.xlsx"
 output_file_path = "results/Translations/Urteil_1_Translation"
 scores_file_path = "results/TranslationScore/Urteil_1_Score.txt"
 
