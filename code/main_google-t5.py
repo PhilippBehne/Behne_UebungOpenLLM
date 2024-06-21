@@ -16,7 +16,7 @@ pipe = pipeline("translation", model="google-t5/t5-base")
 
 # File Paths
 input_file_path = "results/TranslationScore/Urteil_1_Score.txt"
-output_file_path = "results/Translations/translation_results_book_google-t5-base.tsv"
+output_file_path = "results/Translations/Urteil_1_Translation"
 scores_file_path = "results/TranslationScore/Urteil_1_Score.txt"
 
 # Read Testdata
