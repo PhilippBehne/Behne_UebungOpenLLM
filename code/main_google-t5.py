@@ -15,9 +15,9 @@ pipe = pipeline("translation", model="google-t5/t5-base")
 #pipe = pipeline("translation", model="google-t5/t5-large")
 
 # File Paths
-input_file_path = "data/Translation_InTheDark_Book/output_sentences_all.xlsx"
+input_file_path = "results/TranslationScore/Urteil_1_Score.txt"
 output_file_path = "results/Translations/translation_results_book_google-t5-base.tsv"
-scores_file_path = "results/TranslationScore/translation_scores_book_google-t5-base.txt"
+scores_file_path = "results/TranslationScore/Urteil_1_Score.txt"
 
 # Read Testdata
 data = pd.read_excel(input_file_path, header=None)
